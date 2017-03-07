@@ -1,0 +1,8 @@
+{
+  "name": "virtual-console",
+  "version": "1.0.0",
+  "description": "Is designed for debugging code in mobile browsers",
+  "main": "logMobile.js",
+  "author": "Sergey Filippov",
+  "license": "MIT"
+}
