@@ -1,6 +1,6 @@
 {
   "name": "virtual-console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Is designed for debugging code in mobile browsers",
   "main": "logMobile.js",
   "author": "Sergey Filippov",

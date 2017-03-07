@@ -20,10 +20,10 @@ script необходимо подключать отдельно, перед о
 ### Пример
 * вывод console. log, warn, info, error
 
-  ![](http://localhost:8080/img/demonstrantInfo.png)
+  ![](/screenshots/virtual-console-example.png)
 
 ---
 
 * вывод всех типов ошибок, аналогично консоли google chrome
 
-  ![](http://localhost:8080/img/error1.png)
+  ![](/screenshots/virtual-console-show-errors.png)
