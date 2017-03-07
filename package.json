@@ -4,5 +4,6 @@
   "description": "Is designed for debugging code in mobile browsers",
   "main": "logMobile.js",
   "author": "Sergey Filippov",
+  "repository": "https://github.com/SergProduction/virtual-console",
   "license": "MIT"
 }

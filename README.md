@@ -1,7 +1,7 @@
 Languages
 
-> [Russia](http://example.com/)
-  [English](http://example.com/)
+> [Russia](/README.RU.md)
+  [English](/README.md)
 
 ## Virtual cnosole
 Is designed for debugging code in mobile browsers
