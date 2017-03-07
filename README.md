@@ -23,10 +23,10 @@ Script must be connected separately, before the code. If you are using nodejs, y
 ## Example
 * ##### output console. log, warn, info, error
 
-  ![](http://localhost:8080/img/demonstrantInfo.png)
+  ![](/screenshots/virtual-console-example.png)
 
 ---
 
 * ##### Output all types of errors, like the google chrome console
 
-  ![](http://localhost:8080/img/error1.png)
+  ![](/screenshots/virtual-console-show-errors.png)
