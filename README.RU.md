@@ -1,29 +1,41 @@
-язык
-
-> [Русский](https://gist.github.com/SergProduction/)
-  [Английский](https://gist.github.com/SergProduction/)
+Язык: [Русский](/README.RU.md), [Английский](/README.md)
 
 ## Виртруальная консоль
-предназначена в для отладки кода в мобильных браузерах
-### Установка
-```npm install virtual-console``` или ```<script src="virtualConsole.js"></script>```
+Предназначена в для отладки кода в мобильных браузерах
 
-script необходимо подключать отдельно, перед основным кодом.
-Если используеться nodejs, то нужно вызовать инициализацию ```requiare('virtual-console')()```
+### Установка
+- использование в node js
+
+  ```npm install virtual-console```
+
+- использование в браузере
+
+  ```<script src="virtualConsole.js"></script>```
+
+### Инициализация
+Script необходимо подключать отдельно, перед основным кодом.
+Если используеться nodejs, то нужно вызовать инициализацию:
+
+- использование в node js
+
+  ```require('virtual-console')(options)```
+
+- использование в браузере
+
+  ```virtualConsoleInit(options)```
 
 ### Опции
-* url - если указать url, то консоль появиться при наличии в url соответствующего строки после хэша. Например: 
-```requiare('virtual-console')({url: "console=true"})``` yourhost.com#console=true
+- **url**: если указать url, то консоль появиться при наличии в url соответствующего строки после хэша. Например: 
+```require('virtual-console')({url: "console=true"})``` yourhost.com#console=true
 
-* inside - если virtualConsole подключена в один фаил вместе с освновным кодом, необходимо указать эту опцию ```requiare('virtual-console')({inside: true})```, иначе виртуальная консоль не будет отображать строку вызова
+- **inside**: если virtualConsole подключена в один фаил вместе с освновным кодом, необходимо указать эту опцию ```require('virtual-console')({inside: true})```, иначе виртуальная консоль не будет отображать строку вызова
 
 ### Пример
-* вывод console. log, warn, info, error
+- Вывод console. log, warn, info, error
 
   ![](/screenshots/virtual-console-example.png)
 
----
 
-* вывод всех типов ошибок, аналогично консоли google chrome
+- Вывод всех типов ошибок, аналогично консоли google chrome
 
   ![](/screenshots/virtual-console-show-errors.png)
