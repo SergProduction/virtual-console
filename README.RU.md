@@ -4,25 +4,21 @@
 Предназначена в для отладки кода в мобильных браузерах
 
 ### Установка
-- использование в node js
+- использование в node js  
+```npm install virtual-console```
 
-  ```npm install virtual-console```
-
-- использование в браузере
-
-  ```<script src="virtualConsole.js"></script>```
+- использование в браузере  
+```<script src="virtualConsole.js"></script>```
 
 ### Инициализация
 Script необходимо подключать отдельно, перед основным кодом.
 Если используеться nodejs, то нужно вызовать инициализацию:
 
-- использование в node js
+- использование в node js  
+```require('virtual-console')(options)```
 
-  ```require('virtual-console')(options)```
-
-- использование в браузере
-
-  ```virtualConsoleInit(options)```
+- использование в браузере  
+```virtualConsoleInit(options)```
 
 ### Опции
 - **url**: если указать url, то консоль появиться при наличии в url соответствующего строки после хэша. Например: 
